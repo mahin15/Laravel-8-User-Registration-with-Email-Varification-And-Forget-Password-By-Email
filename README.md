@@ -3,41 +3,42 @@
 Hello Every One !
 This is A Basic Laravel E-Commerce Web Project with Functional Admin Panel
 In This Project We Are Using Laravel 8
-In This Project We Are Shown Just Manually Add Product From Admin Panel
-and Show in the main page
-
+In This Project We Are Shown Register User With Email Verification & Forget Password Process also With in Email
 Now Check All Steps 
 
-1) Firstly Install & Setup Properly Laravel Framework Environment
+1) For Email Varification first, We Have to Make SMTP Mail Server Local
 
-2) Then Follow Few Steps
-i. run in command line "composer update"
-ii. run in command line "composer du"
-iii. run in command line "php artisan optimize:clear"
+2) We Can Use Our Own Gmail Account For Doing This
 
-3) In main project file I'm provided also a "php my admin my sql database file" 
-You Have to export in a new table means first create new table, then export there.
-after export successfully took the table name
-and insrt in ".env" file, here's the column "DB_DATABASE=your-table-name"
+3) First Go to "Manage Your Google Account"
 
-4) again run in command line 
-"composer du" then "php artisan optimize:clear"
+4) Select "Security" on Left Side
 
-5) After Completting all of these 
-then finally run in command line 
-"php artisan serve"
-then 
-run through then local host URL
-like: 
-http://127.0.0.1:8000/
+5) Scroll Down And Select App Password
 
-6) Here's Important Admin Information
-Admin Dashboard URL 
-http://127.0.0.1:8000/admin/login
-email: admin@gmail.com
-password: 12345678
+6) "Select the app and device you want to generate the app password for."
+Select "Mail" For App
+Select "Windows Computer" For Device
+The Click on "Generate"
 
-Now here's the Basic E-Commerce Web Project With Functional Admin Panel
+7) You Can Get A Password For SMTP Mail Server
+
+8) Now got to ".env" file and update few on below points
+..........................................................
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME=your mail id
+MAIL_PASSWORD=password which you getting from "App Password"
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=your mail id
+MAIL_FROM_NAME="${APP_NAME}"
+............................................................
+
+rest of others don't need to change
+
+Now here's the Register User With Email Verification & Forget Password Process also With in Email
+
 
 
 
