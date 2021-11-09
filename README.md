@@ -24,16 +24,27 @@ The Click on "Generate"
 7) You Can Get A Password For SMTP Mail Server
 
 8) Now got to ".env" file and update few on below points
+<br>
 ..........................................................
+<br>
 MAIL_MAILER=smtp
+<br>
 MAIL_HOST=smtp.gmail.com
+<br>
 MAIL_PORT=587
+<br>
 MAIL_USERNAME=your mail id
+<br>
 MAIL_PASSWORD=password which you getting from "App Password"
+<br>
 MAIL_ENCRYPTION=tls
+<br>
 MAIL_FROM_ADDRESS=your mail id
+<br>
 MAIL_FROM_NAME="${APP_NAME}"
+<br>
 ............................................................
+<br>
 
 rest of others don't need to change
 
@@ -83,4 +94,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Laravel-8-Basic-E-Commerce-Product-ADD-EDIT-DELETE-SHOW
+# Laravel-8-User-Registration-with-Email-Varification-And-Forget-Password-By-Email
