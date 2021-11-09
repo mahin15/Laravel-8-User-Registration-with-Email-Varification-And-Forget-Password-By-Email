@@ -24,7 +24,6 @@ The Click on "Generate"
 7) You Can Get A Password For SMTP Mail Server
 
 8) Now got to ".env" file and update few on below points
-<br>
 ..........................................................
 <br>
 MAIL_MAILER=smtp
@@ -49,6 +48,19 @@ MAIL_FROM_NAME="${APP_NAME}"
 rest of others don't need to change
 
 Now here's the Register User With Email Verification & Forget Password Process also With in Email
+
+## Bonus On This Project
+
+In This Project We Are Shown Just Manually 
+Add-Edit-Delete-Show Product From Admin Panel
+and Show in the Main Home page
+<br>
+
+<h3 style="color: red">Note:</h3>
+<br>
+<p style="color: green">In Every Repository All Of You Can Get Bonus Part</p>
+
+<br>
 
 
 
