@@ -57,7 +57,6 @@ and Show in the Main Home page
 <br>
 
 <h3 style="color: red">Note:</h3>
-<br>
 <p style="color: green">In Every Repository All Of You Can Get Bonus Part</p>
 
 <br>
